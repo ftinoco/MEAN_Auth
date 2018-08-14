@@ -27,6 +27,7 @@ const appRoutes:  Routes = [
   {path: 'dashboard', component: DashboardComponent, canActivate:[AuthGuard]},
 ];
 
+@NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
